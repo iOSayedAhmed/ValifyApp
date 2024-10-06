@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/ValifyCapture-master.dia",
+    "emit-module-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/ValifyCapture-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/ValifyCapture-master-emit-module.dia",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/ValifyCapture-master.swiftdeps"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/Pods/ValifyCapture/ValifyCapture/Classes/CameraDelegate.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraDelegate~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/Pods/ValifyCapture/ValifyCapture/Classes/CameraViewController.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewController~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/Pods/ValifyCapture/ValifyCapture/Classes/CameraViewModel.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/Objects-normal/arm64/CameraViewModel~partial.swiftmodule"
+  }
+}

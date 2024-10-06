@@ -1,0 +1,128 @@
+{
+  "" : {
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/ValifyApp-master.dia",
+    "emit-module-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/ValifyApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/ValifyApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/ValifyApp-master.swiftdeps"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/App/AppDelegate.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/App/SceneDelegate.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Coordinators/AppCoordinator.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/AppCoordinator~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Coordinators/MainViewControllerCoordinator.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewControllerCoordinator~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Coordinators/SplashCoordinator.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashCoordinator~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Extensions/CombineCompaitableExtensions.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/CombineCompaitableExtensions~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Resources/Shared/BaseControlPublisher.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/BaseControlPublisher~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Scene/MainScene/View/Controller/MainViewController.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MainViewController~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Scene/MainScene/ViewModel/MovieDetailsViewModel.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/MovieDetailsViewModel~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Scene/WelcomeScene/View/ViewController/SplashVC.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashVC~partial.swiftmodule"
+  },
+  "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/ValifyApp/Scene/WelcomeScene/ViewModel/SplashViewModel.swift" : {
+    "const-values" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.swiftconstvalues",
+    "dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.d",
+    "diagnostics" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.dia",
+    "index-unit-output-path" : "/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.o",
+    "llvm-bc" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.bc",
+    "object" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.o",
+    "swift-dependencies" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel.swiftdeps",
+    "swiftmodule" : "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/ValifyApp.build/Debug-iphonesimulator/ValifyApp.build/Objects-normal/x86_64/SplashViewModel~partial.swiftmodule"
+  }
+}

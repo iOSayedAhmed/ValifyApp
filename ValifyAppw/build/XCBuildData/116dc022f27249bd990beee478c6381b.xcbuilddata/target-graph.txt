@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'ValifyApp' in project 'ValifyApp'
+➜ Implicit dependency on target 'Pods-ValifyApp' in project 'Pods' via file 'Pods_ValifyApp.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'ValifyCapture' in project 'Pods' via options '-framework ValifyCapture' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-ValifyApp' in project 'Pods'
+➜ Explicit dependency on target 'ValifyCapture' in project 'Pods'
+Target 'ValifyCapture' in project 'Pods' (no dependencies)
