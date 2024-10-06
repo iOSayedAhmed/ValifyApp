@@ -1,0 +1,10 @@
+framework module ValifyCapture {
+  umbrella header "ValifyCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ValifyCapture.__Swift {
+  exclude header "ValifyCapture-Swift.h"
+}

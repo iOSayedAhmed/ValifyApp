@@ -1,0 +1,11 @@
+framework module ValifyCapture {
+  umbrella header "ValifyCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ValifyCapture.Swift {
+  header "ValifyCapture-Swift.h"
+  requires objc
+}

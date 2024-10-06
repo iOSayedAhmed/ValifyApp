@@ -1,0 +1,164 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvs",
+            "_$s13ValifyCapture20CameraViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvg",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC4show4from8delegateySo06UIViewE0C_AA0C8Delegate_ptFZ",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvgTq",
+            "_$s13ValifyCapture15CameraViewModelCMn",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvsTq",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0Vvpfi",
+            "_$s13ValifyCapture15CameraViewModelC12setupSession33_5BD3F7A586D3498A314FD72784103CF6LLyyF",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvg",
+            "_$s13ValifyCapture15CameraViewModelCACycfc",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0Vvg",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvM",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvpMV",
+            "_$s13ValifyCapture14CameraDelegateMp",
+            "_$s13ValifyCapture14CameraDelegateTL",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvpfi",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvg",
+            "_$s13ValifyCapture20CameraViewControllerC14viewWillAppearyySbF",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvgTq",
+            "_$s13ValifyCapture15CameraViewModelC12captureImageyyF",
+            "_$s13ValifyCapture20CameraViewControllerC12capturePhotoyyF",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvMTq",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvpMV",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvs",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvgTq",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvMTq",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvpfi",
+            "_$s13ValifyCapture20CameraViewControllerC07presentC2VC4withSo06UIViewE0CSgAA0C8Delegate_p_tF",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvs",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvgTq",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvg",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvM",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvpWvd",
+            "_$s13ValifyCapture20CameraViewControllerC05setupC7Preview33_BCEC6CECDA63BE71E18A0845D9CB7895LLyyF",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0Vvs",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC07presentC2VC4withSo06UIViewE0CSgAA0C8Delegate_p_tFTq",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvg",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutput_24didFinishProcessingPhoto5errorySo09AVCapturekG0C_So0mK0Cs5Error_pSgtF",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvM",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvpMV",
+            "_$s13ValifyCapture20CameraViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "_$s13ValifyCapture15CameraViewModelCfD",
+            "_$s13ValifyCapture15CameraViewModelC11stopSessionyyFTq",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvpfi",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvM",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvpfi",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvpWvd",
+            "_$s13ValifyCapture15CameraViewModelC11stopSessionyyF",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvpfi",
+            "_$s13ValifyCapture15CameraViewModelCMa",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvpWvd",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvM",
+            "_ValifyCaptureVersionString",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvs",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvpMV",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvM",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvs",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvpMV",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvpMV",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvpfi",
+            "_$s13ValifyCapture15CameraViewModelC12captureImageyyFTq",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvM",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvpMV",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvgTq",
+            "_$s13ValifyCapture20CameraViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfC",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvpWvd",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvpMV",
+            "_Swift51Overrides",
+            "_$s13ValifyCapture20CameraViewControllerCMa",
+            "_ValifyCaptureVersionNumber",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvpWvd",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvgTq",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvpWvd",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvgTq",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvgTq",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvMTq",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvpWvd",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvMTq",
+            "_$s13ValifyCapture15CameraViewModelCN",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvpfi",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvs",
+            "_$s13ValifyCapture20CameraViewControllerC5coderACSgSo7NSCoderC_tcfC",
+            "_$s13ValifyCapture15CameraViewModelC14cameraPositionSo015AVCaptureDeviceG0VvsTq",
+            "_$s13ValifyCapture15CameraViewModelC12startSessionyyF",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvMTq",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvpWvd",
+            "_$s13ValifyCapture20CameraViewControllerC12previewLayerSo021AVCaptureVideoPreviewG0CSgvMTq",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvpWvd",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvg",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvpMV",
+            "_$s13ValifyCapture15CameraViewModelC11photoOutputSo014AVCapturePhotoG0CSgvM",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvMTq",
+            "_$s13ValifyCapture20CameraViewControllerCfD",
+            "_$s13ValifyCapture20CameraViewControllerC11viewDidLoadyyF",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvs",
+            "_$s13ValifyCapture20CameraViewControllerC17viewWillDisappearyySbF",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvMTq",
+            "_$s13ValifyCapture15CameraViewModelC12startSessionyyFTq",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvg",
+            "_$s13ValifyCapture15CameraViewModelCACycfC",
+            "_$s13ValifyCapture15CameraViewModelC14captureSessionSo09AVCaptureG0CSgvgTq",
+            "_$s13ValifyCapture20CameraViewControllerC9viewModelAA0cdG0CSgvs",
+            "_$s13ValifyCapture20CameraViewControllerC12cancellablesShy7Combine14AnyCancellableCGvpfi",
+            "_$s13ValifyCapture20CameraViewControllerCMn",
+            "_$s13ValifyCapture20CameraViewControllerC12capturePhotoyyFTq",
+            "_$s13ValifyCapture20CameraViewControllerCN",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvsTq",
+            "_$s13ValifyCapture20CameraViewControllerC8delegateAA0C8Delegate_pSgvg",
+            "_$s13ValifyCapture15CameraViewModelC12errorSubject7Combine011PassthroughG0Cys5Error_ps5NeverOGvM",
+            "_$s13ValifyCapture15CameraViewModelC20imageCapturedSubject7Combine011PassthroughH0CySo7UIImageCs5NeverOGvMTq"
+          ],
+          "objc_class": [
+            "PodsDummy_ValifyCapture",
+            "_TtC13ValifyCapture20CameraViewController",
+            "_TtC13ValifyCapture15CameraViewModel"
+          ]
+        },
+        "text": {
+          "global": [
+            "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+            "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/ValifyCapture.framework/ValifyCapture"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "13",
+        "target": "x86_64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

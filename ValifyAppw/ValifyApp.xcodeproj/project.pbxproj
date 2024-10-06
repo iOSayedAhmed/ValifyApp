@@ -20,6 +20,8 @@
 		C81C4A572CB31D7100EA7C65 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A522CB31D7100EA7C65 /* MovieDetailsViewModel.swift */; };
 		C81C4A5C2CB31DF000EA7C65 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A5A2CB31DF000EA7C65 /* MainViewController.swift */; };
 		C81C4A5D2CB31DF000EA7C65 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81C4A5B2CB31DF000EA7C65 /* MainViewController.xib */; };
+		C81C4A602CB3273800EA7C65 /* CombineCompaitableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A5F2CB3273800EA7C65 /* CombineCompaitableExtensions.swift */; };
+		C81C4A622CB3278B00EA7C65 /* BaseControlPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A612CB3278B00EA7C65 /* BaseControlPublisher.swift */; };
 		E2292A4477A19E488DC5EAD4 /* Pods_ValifyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244B23DE737CE48014641899 /* Pods_ValifyApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,9 @@
 		C81C4A522CB31D7100EA7C65 /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
 		C81C4A5A2CB31DF000EA7C65 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C81C4A5B2CB31DF000EA7C65 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C81C4A5F2CB3273800EA7C65 /* CombineCompaitableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCompaitableExtensions.swift; sourceTree = "<group>"; };
+		C81C4A612CB3278B00EA7C65 /* BaseControlPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseControlPublisher.swift; sourceTree = "<group>"; };
+		C81C4A642CB3304800EA7C65 /* ValifyCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ValifyCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 		8CAD08D0EA55AF34A02E0338 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C81C4A642CB3304800EA7C65 /* ValifyCapture.framework */,
 				244B23DE737CE48014641899 /* Pods_ValifyApp.framework */,
 			);
 			name = Frameworks;
@@ -94,6 +100,7 @@
 		C81C4A262CB31C0600EA7C65 /* ValifyApp */ = {
 			isa = PBXGroup;
 			children = (
+				C81C4A5E2CB3272D00EA7C65 /* Extensions */,
 				C81C4A3C2CB31C4300EA7C65 /* App */,
 				C81C4A3D2CB31C4C00EA7C65 /* Resources */,
 				C81C4A3E2CB31C6400EA7C65 /* Coordinators */,
@@ -115,6 +122,7 @@
 		C81C4A3D2CB31C4C00EA7C65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C81C4A632CB327AE00EA7C65 /* Shared */,
 				C81C4A302CB31C0700EA7C65 /* Assets.xcassets */,
 				C81C4A322CB31C0700EA7C65 /* LaunchScreen.storyboard */,
 			);
@@ -208,6 +216,22 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		C81C4A5E2CB3272D00EA7C65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C81C4A5F2CB3273800EA7C65 /* CombineCompaitableExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C81C4A632CB327AE00EA7C65 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C81C4A612CB3278B00EA7C65 /* BaseControlPublisher.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,7 +244,6 @@
 				C81C4A212CB31C0600EA7C65 /* Frameworks */,
 				C81C4A222CB31C0600EA7C65 /* Resources */,
 				A0C2B24C72B1059E40D4CF12 /* [CP] Embed Pods Frameworks */,
-				9234F5D7A10E1483FA4D9146 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,26 +324,9 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9234F5D7A10E1483FA4D9146 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A0C2B24C72B1059E40D4CF12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -344,9 +350,11 @@
 			files = (
 				C81C4A572CB31D7100EA7C65 /* MovieDetailsViewModel.swift in Sources */,
 				C81C4A4F2CB31D5C00EA7C65 /* MainViewControllerCoordinator.swift in Sources */,
+				C81C4A602CB3273800EA7C65 /* CombineCompaitableExtensions.swift in Sources */,
 				C81C4A4B2CB31C7400EA7C65 /* SplashViewModel.swift in Sources */,
 				C81C4A412CB31C6400EA7C65 /* AppCoordinator.swift in Sources */,
 				C81C4A422CB31C6400EA7C65 /* SplashCoordinator.swift in Sources */,
+				C81C4A622CB3278B00EA7C65 /* BaseControlPublisher.swift in Sources */,
 				C81C4A282CB31C0600EA7C65 /* AppDelegate.swift in Sources */,
 				C81C4A5C2CB31DF000EA7C65 /* MainViewController.swift in Sources */,
 				C81C4A2A2CB31C0600EA7C65 /* SceneDelegate.swift in Sources */,
@@ -495,10 +503,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55XPHUW82Y;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValifyApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Valify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,7 +518,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ValifyApp.ValifyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -524,10 +535,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55XPHUW82Y;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValifyApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Valify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -536,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ValifyApp.ValifyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

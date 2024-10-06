@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Debug-iphoneos/ValifyCapture/ValifyCapture.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Debug-iphoneos/ValifyCapture/ValifyCapture.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "ValifyCapture-Swift.h",
+      'external-contents': "/Users/iosayed/Desktop/ValifyApp/ValifyAppw/build/Pods.build/Debug-iphoneos/ValifyCapture.build/unextended-interface-header.h",
+    }]
+    }]
+}

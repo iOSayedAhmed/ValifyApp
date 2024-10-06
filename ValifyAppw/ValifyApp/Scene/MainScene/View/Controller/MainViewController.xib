@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="ValifyApp" customModuleProvider="target">
             <connections>
+                <outlet property="capturedSelfiImageView" destination="p17-AN-t0i" id="qfu-vh-Ap8"/>
+                <outlet property="takeSelfiButton" destination="Pvt-X6-um8" id="B6e-ng-RxK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,14 +23,29 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p17-AN-t0i">
                     <rect key="frame" x="16" y="59" width="361" height="230"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvt-X6-um8">
+                    <rect key="frame" x="45.333333333333343" y="718" width="302.33333333333326" height="50"/>
+                    <color key="backgroundColor" red="0.054901960780000002" green="0.066666666669999999" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="lEp-lh-QWe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Take Selfi">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="p17-AN-t0i" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="CHe-p1-2iF"/>
                 <constraint firstItem="p17-AN-t0i" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.27" id="P1z-jm-EvA"/>
+                <constraint firstItem="Pvt-X6-um8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="e4W-hg-e5k"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="p17-AN-t0i" secondAttribute="trailing" constant="16" id="efy-Xy-DR1"/>
+                <constraint firstItem="Pvt-X6-um8" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.77" id="wwt-ED-o78"/>
                 <constraint firstItem="p17-AN-t0i" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="xw8-nO-shR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Pvt-X6-um8" secondAttribute="bottom" constant="50" id="yIn-lZ-m8N"/>
             </constraints>
             <point key="canvasLocation" x="12.977099236641221" y="19.718309859154932"/>
         </view>
