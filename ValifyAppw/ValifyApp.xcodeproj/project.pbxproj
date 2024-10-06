@@ -20,9 +20,13 @@
 		C81C4A572CB31D7100EA7C65 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A522CB31D7100EA7C65 /* MovieDetailsViewModel.swift */; };
 		C81C4A5C2CB31DF000EA7C65 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81C4A5A2CB31DF000EA7C65 /* MainViewController.swift */; };
 		C81C4A5D2CB31DF000EA7C65 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C81C4A5B2CB31DF000EA7C65 /* MainViewController.xib */; };
+		E2292A4477A19E488DC5EAD4 /* Pods_ValifyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244B23DE737CE48014641899 /* Pods_ValifyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244B23DE737CE48014641899 /* Pods_ValifyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValifyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8A96468B2B34EA272F1ECB /* Pods-ValifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValifyApp.release.xcconfig"; path = "Target Support Files/Pods-ValifyApp/Pods-ValifyApp.release.xcconfig"; sourceTree = "<group>"; };
+		6E74D114FA4033430FB4BB15 /* Pods-ValifyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValifyApp.debug.xcconfig"; path = "Target Support Files/Pods-ValifyApp/Pods-ValifyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C81C4A242CB31C0600EA7C65 /* ValifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81C4A272CB31C0600EA7C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81C4A292CB31C0600EA7C65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2292A4477A19E488DC5EAD4 /* Pods_ValifyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F37D0A9C9C8A88549E49221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E74D114FA4033430FB4BB15 /* Pods-ValifyApp.debug.xcconfig */,
+				3D8A96468B2B34EA272F1ECB /* Pods-ValifyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CAD08D0EA55AF34A02E0338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				244B23DE737CE48014641899 /* Pods_ValifyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C81C4A1B2CB31C0600EA7C65 = {
 			isa = PBXGroup;
 			children = (
 				C81C4A262CB31C0600EA7C65 /* ValifyApp */,
 				C81C4A252CB31C0600EA7C65 /* Products */,
+				1F37D0A9C9C8A88549E49221 /* Pods */,
+				8CAD08D0EA55AF34A02E0338 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C81C4A382CB31C0700EA7C65 /* Build configuration list for PBXNativeTarget "ValifyApp" */;
 			buildPhases = (
+				3669CB693496E3433F5C0849 /* [CP] Check Pods Manifest.lock */,
 				C81C4A202CB31C0600EA7C65 /* Sources */,
 				C81C4A212CB31C0600EA7C65 /* Frameworks */,
 				C81C4A222CB31C0600EA7C65 /* Resources */,
+				A0C2B24C72B1059E40D4CF12 /* [CP] Embed Pods Frameworks */,
+				9234F5D7A10E1483FA4D9146 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3669CB693496E3433F5C0849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ValifyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9234F5D7A10E1483FA4D9146 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C2B24C72B1059E40D4CF12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ValifyApp/Pods-ValifyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C81C4A202CB31C0600EA7C65 /* Sources */ = {
@@ -403,11 +489,14 @@
 		};
 		C81C4A392CB31C0700EA7C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E74D114FA4033430FB4BB15 /* Pods-ValifyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValifyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,11 +518,14 @@
 		};
 		C81C4A3A2CB31C0700EA7C65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8A96468B2B34EA272F1ECB /* Pods-ValifyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ValifyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

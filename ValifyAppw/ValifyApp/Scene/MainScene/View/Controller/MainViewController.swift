@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ValifyCapture
 
 class MainViewController: UIViewController {
 
@@ -24,8 +25,19 @@ class MainViewController: UIViewController {
     // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hideNavigationBar()
+        setupView()
     }
+    
+    
+}
 
-
+extension MainViewController {
+    private func hideNavigationBar() {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
+    private func setupView(){
+        
+    }
 }
